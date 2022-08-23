@@ -3,4 +3,6 @@
 
 __author__ = "730580207"
 
-print ("Hello world.")
+
+
+print("Hello world.")
