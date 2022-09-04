@@ -9,7 +9,13 @@ character_count: int = 0
 if len(user_word) > 5:
     print("Error: Word must contain 5 characters")
     quit()
+if len(user_word) < 5:
+    print("Error: Word must contain 5 characters")
+    quit()
 if len(user_character) > 1:
+    print("Error: Character must be a single character.")
+    quit()
+if len(user_character) < 1:
     print("Error: Character must be a single character.")
     quit()
 
